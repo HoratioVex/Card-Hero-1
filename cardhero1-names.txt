@@ -1,0 +1,122 @@
+MONSTER & MAGIC
+
+001	MONSTER	マナトット		manatotto
+002	MONSTER	？？？		？ ？ ？
+003	MONSTER	ゲッティ		getti
+004	MONSTER	ポンカー		ponkā
+005	MONSTER	ポポンカー		poponkā
+006	MONSTER	ウォータ		wōta
+007	MONSTER	タコッケー		takokkē
+008	MONSTER	ボムゾウ		bomuzō
+009	MONSTER	ボムノスケ		bomunosuke
+010	MONSTER	コワイル		kowairu			Sheleton
+011	MONSTER	ワイルダー		wairudā			
+012	MONSTER	シゴトにん		shigoto nin
+013	MONSTER	ジャレス		ja resu
+014	MONSTER	ジャレット		ja retto
+015	MONSTER	ポリゴマ		pori goma
+016	MONSTER	エルゴマ		eru goma
+017	MONSTER	ビヨンド		biyondo			Byom
+018	MONSTER	ルージュ		rūju			Rougette
+019	MONSTER	マッコイ		makkoi
+020	MONSTER	ヤンバル		yan baru
+021	MONSTER	ガンター		gantā
+022	MONSTER	ドガンター		dogantā
+023	MONSTER	ヴァルテル		varuteru		Pepeka
+024	MONSTER	ケッコウ		kekkō
+025	MONSTER	スライ			surai
+026	MAGIC	ヒーリング		hīringu
+027	MAGIC	ハードシールド	hādo shīrudo
+028	MAGIC	パワーダウン		pawādaun
+029	MAGIC	ウェイクアップ	weikuappu
+030	MAGIC	でなおし		denaoshi
+031	MAGIC	ドロー５		dorō go
+032	MAGIC	レベルチェンジ	reberu chenji
+033	MAGIC	バーサクパワー	bāsakupawā
+034	MAGIC	サンダー		sandā
+035	MAGIC	パワーアップ		pawāappu
+
+MAGICAL WORLD
+
+036	MONSTER	レイラ			reira
+037	MONSTER	レイババ		rei baba
+038	MONSTER	ラッティ		ratti
+039	MONSTER	ドラッティ		doratti
+040	MONSTER	ヤミー			yamī
+041	MONSTER	ガンガラ		gangara
+042	MONSTER	ドンガラ		dongara
+043	MONSTER	クロロウ		kurorō
+044	MONSTER	コカッパー		kokappā
+045	MONSTER	カッパラー		kapparā
+046	MONSTER	チャーミ		chāmi
+047	MONSTER	スッピーン		suppīn
+048	MONSTER	チュトロ		chutoro
+049	MONSTER	ぎんじ		ginji
+050	MONSTER	アップル		appuru
+051	MONSTER	ルースター		rū sutā
+052	MONSTER	クレア			kurea
+053	MONSTER	テレポ			terepo
+054	MONSTER	ラティーヌ		ratīnu
+055	MAGIC	かまいたち		kamaitachi
+056	MAGIC	バイバイ		baibai
+057	MAGIC	フエルストーン	fuerusutōn
+058	MAGIC	とくぎふうじ		toku gifūji
+059	MAGIC	パワー２		pawā ni
+060	MAGIC	あくまのダンス	akuma no dansu
+061	MAGIC	だいちのいかり	dai chino ikari
+062	MAGIC	ワープ			wāpu
+063	MAGIC	ゆうだち		yūda chi
+064	MAGIC	ハイヒーリング	haihīringu
+065	MAGIC	あっかんべ		akkanbe
+066	MAGIC	？？？		？ ？ ？
+
+STRANGE KIND
+
+067	MONSTER	ラブレー		raburē
+068	MONSTER	ゲイリー		geirī
+069	MONSTER	ヌンチャ		nuncha
+070	MONSTER	ガサッツ		gasattsu
+071	MONSTER	ラオン			raon
+072	MONSTER	レオン			reon
+073	MONSTER	ビター			bitā
+074	MONSTER	スイート		suīto
+075	MONSTER	ペンスキー		pensu kī
+076	MONSTER	ダイン			dain
+077	MONSTER	おやこだま		oya kodama
+078	MONSTER	ジャベール		ja bēru
+079	MONSTER	トリゴミー		torigomī
+080	MAGIC	キエルストーン	kierusutōn
+081	MAGIC	シャッフル		shaffuru
+082	MAGIC	ハリケーン		harikēn
+083	MAGIC	ならべかえ		narabe kae
+084	MAGIC	マッドファイア		maddofaia
+085	MAGIC	ゆうわく		yū waku
+086	MAGIC	ぶよシールド		buyo shīrudo
+087	MAGIC	ローテーション	rōtēshon
+088	MAGIC	おまもり		o mamori
+089	MONSTER	？？？		？ ？ ？
+
+SUPER INCLUDE
+
+090	MONSTER	カップン		kappun
+091	MONSTER	ガブッチョ		gabuccho
+092	MONSTER	ヤンペロン		yanperon
+093	MONSTER	なぞえもん		nazoe mon
+094	MONSTER	ドンチャン		don chan
+095	MONSTER	ガスキン		ga sukin
+096	MONSTER	ウズフラー		uzufurā
+097	MONSTER	ガァガ			gāga
+098	MONSTER	ナイリー		nairī
+099	MAGIC	リフレッシュ		rifuresshu
+100	MAGIC	ジアーゲン		jiāgen
+101	MAGIC	ブラックレイン	burakkurein
+102	MAGIC	かげぬい		kagenui
+103	MAGIC	リターン		ritān
+104	MAGIC	バイコストーン	baikosutōn
+105	MAGIC	バウンシールド	baunshīrudo
+106	MAGIC	おはらい		oharai
+107	MAGIC	きあいだめ		ki aidame
+108	MAGIC	みがわり		migawari
+109	MAGIC	へんしんミラー	henshin mirā
+110	MONSTER	？？？	　	？ ？ ？ 
+

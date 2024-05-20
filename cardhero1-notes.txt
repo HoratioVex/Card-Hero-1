@@ -1,0 +1,67 @@
+FFCA: current bank
+FF8B,FF8C: current vram write address
+C74F: pointer cache?
+C403: current dialog base pointer
+c4ac: message id?
+
+A02E: player name
+
+00:099f: select bank A
+C8a1, C8a2: bank values? swapping?
+
+64:63a0 font base
+
+
+00:3039: render letter
+00:2fed-2ff4: load 4 bytes from font -> C B E D 
+2ff5: hook
+
+00:3e19-00:3ef0 freespace
+11:7dfc-11:7fff
+12:7f8d-12:7fff
+fffb-fffe: uninit hram
+
+free space (empty banks: 07,2E,43,72,73,74,75,79,7A,7B)
+1e2fb0-1effff (78:6fb0-7b:7fff)
+1c7f30-1d7fff (71:7f30-75:7fff)
+018c12-020000 (06:4c12-07:7fff)
+020481-024000 (08:4481-08:7fff)
+0b7c07-0bc000 (2d:7c07-2e:7fff)
+10bab0-110000 (42:7ab0-43:7fff)
+12c9c0-130000 (4b:49c0-4b:7fff)
+16cb80-170000 (5b:4b80-5b:7fff)
+
+
+
+18:4077 pointer dialog seq
+54:55fc pointers dialog
+54:5c72 script
+
+54:4c32 -> 4d16 
+5a:6230 -> 64eb 650e
+
+11:50a4: render letter
+
+special characters: 28,37,39,24,25,26,
+39 (5x): player name (c49b)
+28: じいちゃん ? enemy name?
+37: "T" symbol
+24,25,26: counters
+
+14:51c6 layer x? pointer
+
+text banks (25)
+02
+10 master skills
+11
+15-1A (6)
+2d
+30
+4f
+54-5a (7)
+61
+6b-6f (3)
+76
+78
+
+
