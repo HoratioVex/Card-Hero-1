@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+function updateFile() {
+	const v = document.getElementById("gb").value.split(":");
+	bank = parseInt("0x"+v[0]); 
+	addr = parseInt("0x"+v[1]);
+	var faddr;
+	if (bank <=1) {
+		faddr = addr;
+		}
+	else {
+		faddr = ((bank-1)*0x4000)+addr;
+		}
+	document.getElementById("file").value = faddr.toString(16).toUpperCase();
+}
+function updateGB() {
+	const v = document.getElementById("file").value;
+	f = parseInt("0x"+v);
+	var bank = Math.floor(f / 0x4000);
+	if (bank == 0) {
+		addr = f;
+		}
+	else {
+		var addr = f+0x4000-(bank*0x4000);
+		}
+	var gbaddr;
+	gbaddr=bank.toString(16).padStart(2, '0') + ":" + addr.toString(16).padStart(4, '0');
+	document.getElementById("gb").value = gbaddr.toUpperCase();
+}
+</script>
+
+<style>
+    td {
+        padding: 2px;
+    }
+
+    td.space {
+        height: 0.75em;
+    }
+</style>
+
+<table>
+    <tbody>
+        <tr>
+            <td colspan="3" class="space"></td>
+        </tr>
+        <tr>
+            <td><input id="gb" type="text" value="01:4000" onchange="updateFile()"></td>
+            <td><input id="file" type="text" value="4000" onchange="updateGB()"></td>
+        </tr>
+        <tr>
+            <td><label for="gb">GameBoy (0x)</label></td>
+            <td><label for="file">File (0x)</label></td>
+        </tr>
+    </tbody>
+</table>
+
+</html>
+</body>
