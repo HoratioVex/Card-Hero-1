@@ -1,13 +1,22 @@
 FFCA: current bank
 FF8B,FF8C: current vram write address
 C74F: pointer cache?
+c400: vram part`?
 C403: current dialog base pointer
+c409: ?
+c40d: line count
+c40e: char count per line
+
+c458-5a: ? count? reset on LF
+c4c8: ? reset on LF
+
 c4ac: message id?
+C8a1, C8a2: bank values? swapping?
 
 A02E: player name
 
 00:099f: select bank A
-C8a1, C8a2: bank values? swapping?
+
 
 64:63a0 font base
 
@@ -64,4 +73,6 @@ text banks (25)
 76
 78
 
-
+12:7715: ff ff / msg end
+12:7704: ff / msg linefeed
+12:76d7: adjust vram to next line: ($c40d-1)+$c400
