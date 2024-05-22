@@ -1,0 +1,29 @@
+// Card Hero 1 - Main Text
+#VAR(MainTable, TABLE)
+#ADDTBL("cardhero1-eng.tbl", MainTable)
+#ACTIVETBL(MainTable)
+
+#SMA("GB")
+
+//0000-3FFF, add 4000 to the offset.
+#VAR(Ptr0, CUSTOMPOINTER)
+#CREATEPTR(Ptr0, "GB", $-4000, 24)
+
+//4000-7FFF, do not add anything to the offset.
+#VAR(Ptr4, CUSTOMPOINTER)
+#CREATEPTR(Ptr4, "GB", 0, 24)
+
+//8000-BFFF, subtract 4000 from the offset.
+#VAR(Ptr8, CUSTOMPOINTER)
+#CREATEPTR(Ptr8, "GB", $4000, 24)
+
+//C000-FFFF, subtract 8000 from the offset.
+#VAR(PtrC, CUSTOMPOINTER)
+#CREATEPTR(PtrC, "GB", $8000, 24)
+
+// in bank 6
+#JMP($18C20,$1C000)
+
+#WRITE(Ptr8,$150D16)
+Some Guy<LF>
+I'm just a regular customer here.<EN>
