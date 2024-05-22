@@ -20,11 +20,18 @@ banks $80
 
 .BACKGROUND "../Card Hero (English).gbc"   ;to patch an existing file
 
-.def quadsRendered $FE ;free HRAM byte, keep track how many sets of 4 bytes we've rendered to the current tile
-.def storevram1 $FD
-.def storevram2 $FC  
-.def vram1 $8B
-.def vram2 $8C			
+;free HRAM bytes we can use
+.def Htemp1 $FE
+.def Htemp2 $FD
+.def Htemp3 $FC
+.def Htemp4 $FB
+
+;game variables
+.def HvramLo $8B ;current render position
+.def HvramHi $8C
+.def charCount $C40E
+.def lineCount $C40D
+.def vramBase $C400
 
 
 .SECTION "Font" OVERWRITE bank $64 slot 1 orga $63A0
@@ -38,7 +45,7 @@ banks $80
 .SECTION "Hook2-RenderStart" OVERWRITE bank $00 slot 0 orga $3239
 	call RenderHalf
 	pop hl
-	call RenderHalf
+	call RenderHalf ;why call it twice?
 .ENDS
 
 ;.SECTION "Hook3-RenderDone" OVERWRITE bank $12 slot 1 orga $7B8F
@@ -47,22 +54,17 @@ banks $80
 
 .SECTION "MainExpansion" OVERWRITE bank $00 slot 0 orga $3E19 size $E7
 PrepRenderHalf:
-	ldh a,(quadsRendered)
-	cp a,$08
-	jr Z,@MoveLeft ;if a==8, left side done,move back to same tile
-	jr NC,@RenderRight ;if a>8
-	or A,$00 ;if a=0
-	jr NZ,@Finish
-	ldh a,(vram1)	;new tile, store position
-	ldh (storevram1),a
-	ldh a,(vram2)
-	ldh (storevram2),a
+	ld a,(charCount)
+	bit 0,a ;test if we are on odd char
+	jr NZ,@MoveLeft ;if odd, left side done,move back to same tile
 	jr @Finish
 @MoveLeft: ;vram go back to tile start
-	ldh a,(storevram1)	
-	ldh (vram1),a
-	ldh a,(storevram2)
-	ldh (vram2),a
+	ldh a,(HvramLo)
+	and a,$0F ;if at new tile start, move back 1 tile
+	jr NZ,@RenderRight
+	ldh a,(HvramLo)
+	sub a,$10
+	ldh (HvramLo),a
 @RenderRight:
 	swap c
 	swap b
@@ -80,9 +82,9 @@ RenderHalf:
 	and a,$03 ;lcd stat check
 	jr NZ,@Try2
 	di
-	ldh a,(quadsRendered)
-	cp a,$08
-	jr NC,@RenderRight ;if a>8
+	ld a,(charCount)
+	bit 0,a ;test if we are on odd char
+	jr NZ,@RenderRight 
 @RenderLeft:
 	ld a,c
 	ldi (hl),a
@@ -93,7 +95,7 @@ RenderHalf:
 	ld (hl),d
 	inc hl
 	jr @Finish
-@RenderRight:
+@RenderRight: ;bytes are nibbleswapped and blended over old tile with AND
 	ld a,c
 	and a,(hl)
 	ldi (hl),a
@@ -110,31 +112,19 @@ RenderHalf:
 	ei
 	ldh a,($41)
 	and a,$03 ;lcd stat check
-	jr Z,updateQuadCount
+	ret Z
 	dec hl
 	dec hl
 	dec hl
 	dec hl
 	jr @Try2
-updateQuadCount:
-	ldh a,(quadsRendered)
-	inc a
-	and a,$0F ;roll around at 16
-	ldh (quadsRendered),a
-	ret
 .ENDS
 
 ;.SECTION "B12_Expansion" OVERWRITE bank $12 slot 1 orga $7F8D
-;updateQuadCount:
-;	ldh a,(quadsRendered)
-;	inc a
-;	and a,$07
-;	ldh (quadsRendered),a
-;	ld hl,$FF8D
-;	jp $7B92
+
 ;.ENDS
 
-; todo: half-width render
+.SECTION "DEBUG msg test" OVERWRITE bank $54 slot 1 orga $4d16
+	.db $54,$84,$50,$51,$52,$ff,$53,$54,$55,$56,$85,$86,$87,$88,$ff,$89,$8a,$8b,$ff,$ff
+.ENDS
 
-;reset side on: new message&line feed (12:76eb)
-;, adjust vram advance
