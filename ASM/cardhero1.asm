@@ -32,7 +32,10 @@ banks $80
 .def charCount $C40E
 .def lineCount $C40D
 .def vramBase $C400
-
+.def msgPointerLo $C406
+.def msgPointerHi $C407
+.def msgPointerBa $C408
+.def dlgPointerBa $C405
 
 .SECTION "Font" OVERWRITE bank $64 slot 1 orga $63A0
 	.incbin "..\graphics\font3x7.til" 
@@ -46,6 +49,11 @@ banks $80
 	call RenderHalf
 	pop hl
 	call RenderHalf ;why call it twice?
+.ENDS
+
+.SECTION "Hook3-MsgPointerWritten" OVERWRITE bank $00 slot 0 orga $3790
+	jp RedirectMsgPointer
+ExitHook3:
 .ENDS
 
 ;.SECTION "Hook3-RenderDone" OVERWRITE bank $12 slot 1 orga $7B8F
@@ -118,13 +126,28 @@ RenderHalf:
 	dec hl
 	dec hl
 	jr @Try2
+	
+RedirectMsgPointer:
+	ld hl,(msgPointerLo)
+	ldi a,(hl)
+	ld h,(hl)
+	ld l,a
+	ldi a,(hl)
+	ld (msgPointerLo),a
+	ldi a,(hl)
+	ld (msgPointerHi),a
+	ld a,(hl)
+	ld (msgPointerBa),a
+	xor a	;overwritten by hook
+	ld ($C857),a
+	jp ExitHook3
 .ENDS
 
 ;.SECTION "B12_Expansion" OVERWRITE bank $12 slot 1 orga $7F8D
 
 ;.ENDS
 
-.SECTION "DEBUG msg test" OVERWRITE bank $54 slot 1 orga $4d16
-	.db $54,$84,$50,$51,$52,$ff,$53,$54,$55,$56,$85,$86,$87,$88,$ff,$89,$8a,$8b,$ff,$ff
-.ENDS
+;.SECTION "DEBUG msg test" OVERWRITE bank $54 slot 1 orga $4d16
+;	.db $54,$84,$50,$51,$52,$ff,$53,$54,$55,$56,$85,$86,$87,$88,$ff,$89,$8a,$8b,$ff,$ff
+;.ENDS
 
