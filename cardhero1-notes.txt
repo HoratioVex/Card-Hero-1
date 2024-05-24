@@ -2,6 +2,7 @@ FFCA: current bank
 FF8B,FF8C: current vram write address
 C74F: pointer cache?
 c400: vram part`?
+c402: type? ("2" for message start)
 C403: current dialog base pointer
 c409: ?
 c40d: line count
