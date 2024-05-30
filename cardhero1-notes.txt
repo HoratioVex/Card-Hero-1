@@ -57,23 +57,38 @@ special characters: 28,37,39,24,25,26,
 28: じいちゃん ? enemy name?
 37: "T" symbol
 24,25,26: counters
+2B: h / heart symbol
+2E: k / NPC name?
 
 14:51c6 layer x? pointer
 
 text banks (25)
 02
 10 master skills
-11
+11 club rules prize
 15-1A (6)
 2d
 30
 4f
 54-5a (7)
 61
-6b-6f (3)
+6b-6f (3) !! each preceded by 2byte BIG endian pointers
 76
 78
 
 12:7715: ff ff / msg end
 12:7704: ff / msg linefeed
 12:76d7: adjust vram to next line: ($c40d-1)+$c400
+
+1ac9e3:
+list 3byte lit-end -> list of 14 2byte lit-end -> list 00-terminated of 2byte big-end  
+
+unprocessed:
+000
+001
+016
+017
+018
+065-077
+080
+081
