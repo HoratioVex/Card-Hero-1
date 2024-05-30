@@ -1,6 +1,6 @@
 ;wla-dx asm
 
-;.ROMSIZE
+.ROMSIZE
 .COMPUTEGBCHECKSUM
 .COMPUTEGBCOMPLEMENTCHECK
 .EMPTYFILL $FF
@@ -13,9 +13,9 @@ defaultslot 0
 .endme
 
 .rombankmap
-bankstotal $80
+bankstotal $100
 banksize $4000
-banks $80
+banks $100
 .endro
 
 .BACKGROUND "../Card Hero (English).gbc"   ;to patch an existing file
