@@ -1,11 +1,11 @@
-ffff=<EN>\n\n
-ff=<LF>\n
-3939393939=<N1>
-28=<N2>
+/ffff=<END>
+ff=<LF>
+3939393939=<NAME>
+28=<NAME2>
 37=<T>
-24=<C1>
-25=<C2>
-26=<C3>
+24=<COUNT1>
+25=<COUNT2>
+26=<COUNT3>
 
 f0= 
 
@@ -248,11 +248,11 @@ EF=「
 
 F3=…
 
-F8=(s1)
-F9=(s2)
-FA=(s3)
-FB=(s4)
-FC=(s5)
+F8=(sym1)
+F9=(sym2)
+FA=(sym3)
+FB=(sym4)
+FC=(sym5)
 FD=w
 FE=(AR)
 

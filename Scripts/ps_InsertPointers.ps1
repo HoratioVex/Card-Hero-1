@@ -4,6 +4,7 @@
 $rompath = "..\Card Hero (Japan).gbc"
 $endbytes = @(0xFF,0xFF)
 $endtoken = "<EN>"
+$linestart = "//"
 
 function FindIndices($array, $sequence) {
     $indices = @(0) #always start at index 0
@@ -28,8 +29,8 @@ function FindIndices($array, $sequence) {
     
     return $indices
 }
-function ConvertBank ($fileoffset) {
-	$bank = [Int32]($fileoffset / 0x4000)
+function ConvertBank ($fileoffset) { #convert file offset to GB memory mapping
+	$bank = [Int32]([math]::floor($fileoffset / 0x4000))
 	if ($bank -eq 0)
 		{$addr = $fileoffset} 
 	else 
@@ -40,12 +41,31 @@ function ConvertBank ($fileoffset) {
 
 # *** Main ***
 
-if ($args.count -ne 3)
-	{write-host "Required arguments: StartOffset EndOffset TargetTextfile"
+if ($args.count -ne 1)
+	{write-host "Required arguments: TargetTextfile"
 	return}
-	
-$startoffset = [Int32]("0x"+$args[0])
-$endoffset = [Int32]("0x"+$args[1])
+
+$textfile = Get-Content -Path $args[0] -encoding utf8
+
+$startoffset = 0
+$endoffset = 0
+
+for($i=0; $i -lt $textfile.Length; $i++) {
+		$s = $textfile[$i]
+		if ($s.Contains("Range")) {
+			$sp = $s.split("$")
+			$start = ("0x"+$sp[1])
+			$start = $start.split(" ")
+			$startoffset = [Int32]$start[0]
+			$endoffset = [Int32]("0x"+$sp[2])
+			break
+		} 
+}
+
+if ($startoffset -eq 0 -Or $endoffset -eq 0)
+	{write-host "Error: No Offset Range found in textfile"
+	return}
+
 $readlength = $endoffset - $startoffset + 1
 
 [byte[]]$rawdata = @(0) * $readlength
@@ -57,34 +77,46 @@ $instream.Dispose()
 
 $indices = FindIndices $rawdata $endbytes
 
-#$textfile = Get-Content -Path $args[2]
-$textfile = Get-Content -Path "File.txt"
 $newtext = @()
 $counter = 0
+
+for($i=0; $i -lt 4; $i++) { #copy header
+	$newtext += $textfile[$i]
+}
 
 $thisindex = $startoffset + $indices[$counter] 
 $bankformat = ConvertBank $thisindex
 $hexoffset = $thisindex.ToString("X")
 $newtext += "// $counter -- $bankformat"
 $newtext += "#WRITE(Ptr,`$$hexoffset)"
-$newtext += ""
+$newtext += "$hexoffset<EN>"
 $counter++
 
-Foreach ($Line in $textfile)
-{    
-    $newtext += $Line
+for($i=4; $i -lt $textfile.Length; $i++) {
+    $Line = $textfile[$i]
+    $newtext += $linestart + $Line
 
     if ($Line.Contains($endtoken)) 
     {
-		$thisindex = $startoffset + $indices[$counter] + 2 #string starts after the two endtoken bytes
+		$thisindex = $startoffset + $indices[$counter] + $endbytes.Count #string starts after the endtoken bytes
 		$bankformat = ConvertBank $thisindex
 		$hexoffset = $thisindex.ToString("X")
 		$newtext += ""
-        $newtext += "// $counter -- $bankformat"
+		$newtext += "// $counter -- $bankformat"
 		$newtext += "#WRITE(Ptr,`$$hexoffset)"
+		$newtext += "$hexoffset<EN>"
 		$counter++
     } 
 }
 
+$len = $newtext.Length
+$newtext[$len-4] = "// ********************************"
+$newtext[$len-3] = "// End Block"
+$newtext[$len-2] = "// ********************************"
+$newtext[$len-1] = ""
+
+
+#[IO.File]::WriteAllLines($filename, $content)
+#$output | out-file -encoding utf8 "cardhero1_carto_6b.txt"
 #$newtext | Set-Content -Path $args[2]
-$newtext
+$newtext | out-file -encoding utf8 $args[0]

@@ -1,0 +1,814 @@
+#GAME NAME:		Card Hero 1 (GBC)
+
+#BLOCK NAME:			000 Block 02-A -- Game Rules
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$8000
+#POINTER TABLE STOP:	$802D
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS: 			No
+#BASE POINTER:			$4000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			001 Block 02-B -- Game Rules 2
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$B693
+#POINTER TABLE STOP:	$B6BE
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS:			No
+#BASE POINTER:			$4000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			002 Block 15-A -- Dialog 01
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$55145
+#SCRIPT STOP:			$57F3C
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			003 Block 16-A -- Dialog 02
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$59665
+#SCRIPT STOP:			$5BEF4
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			004 Block 17-A -- Dialog 03
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$5D34E
+#SCRIPT STOP:			$5FE4A
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			005 Block 18-A -- Dialog 04
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$608D0
+#SCRIPT STOP:			$615E0
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			006 Block 18-B -- Dialog 05
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$61A3D
+#SCRIPT STOP:			$61F15
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			007 Block 18-C -- Dialog 06
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$6266E
+#SCRIPT STOP:			$630FF
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			008 Block 18-D -- Dialog 07
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$63840
+#SCRIPT STOP:			$63DE8
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			009 Block 19-A -- Dialog 08
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$6493C
+#SCRIPT STOP:			$66645
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			010 Block 19-B -- Dialog 09
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$6717B
+#SCRIPT STOP:			$67DE3
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			011 Block 1A-A -- Dialog 10
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$6875D
+#SCRIPT STOP:			$691E2
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			012 Block 1A-B -- Dialog 11
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$69B29
+#SCRIPT STOP:			$6A2FE
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			013 Block 1A-C -- Dialog 12
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$6A755
+#SCRIPT STOP:			$6AC94
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			014 Block 1A-D -- Dialog 13
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$6B3FF
+#SCRIPT STOP:			$6BEC4
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			015 Block 2D-A -- Dialog 14
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$B5AC8
+#SCRIPT STOP:			$B7C08
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			016 Block 30-A -- Master Labels
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$C0CE9
+#SCRIPT STOP:			$C0D6C
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			017 Block 30-B -- More Labels
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$C2444
+#SCRIPT STOP:			$C3410
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			018 Block 4F-A -- More Labels 2
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$13C879
+#SCRIPT STOP:			$13D6A4
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			019 Block 54-A -- Dialog 15
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$1501E0
+#SCRIPT STOP:			$150634
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			020 Block 54-B -- Dialog 16
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$1507CD
+#SCRIPT STOP:			$150C31
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			021 Block 54-C -- Dialog 17
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$150D16
+#SCRIPT STOP:			$151445
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			022 Block 54-D -- Dialog 18
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$1519E0
+#SCRIPT STOP:			$1528D6
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			023 Block 54-E -- Dialog 19
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$152AB4
+#SCRIPT STOP:			$152D3D
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			024 Block 54-F -- Dialog 20
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$1533E6
+#SCRIPT STOP:			$153AB4
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			025 Block 54-G -- Dialog 21
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$153C46
+#SCRIPT STOP:			$153E74
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			026 Block 55-A -- Dialog 22
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$1546EC
+#SCRIPT STOP:			$1550EC
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			027 Block 55-B -- Dialog 23
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$15550F
+#SCRIPT STOP:			$1559B9
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			028 Block 55-C -- Dialog 24
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$156807
+#SCRIPT STOP:			$1575EF
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			029 Block 55-D -- Dialog 25
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$157B54
+#SCRIPT STOP:			$157E55
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			030 Block 56-A -- Dialog 26
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$158492
+#SCRIPT STOP:			$158834
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			031 Block 56-B -- Dialog 27
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$158CC7
+#SCRIPT STOP:			$159016
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			032 Block 56-C -- Dialog 28
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$1594A9
+#SCRIPT STOP:			$1597D1
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			033 Block 56-D -- Dialog 29
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$159C64
+#SCRIPT STOP:			$159F91
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			034 Block 56-E -- Dialog 30
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$15A427
+#SCRIPT STOP:			$15A74F
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			035 Block 56-F -- Dialog 31
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$15ABE2
+#SCRIPT STOP:			$15AF0C
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			036 Block 56-G -- Dialog 32
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$15B39F
+#SCRIPT STOP:			$15B6C2
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			037 Block 56-H -- Dialog 33
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$15BB55
+#SCRIPT STOP:			$15BE63
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			038 Block 57-A -- Dialog 34
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$15CEC4
+#SCRIPT STOP:			$15EB3C
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			039 Block 58-A -- Dialog 35
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$160ACE
+#SCRIPT STOP:			$1615B9
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			040 Block 58-B -- Dialog 36
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$161990
+#SCRIPT STOP:			$161C7B
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			041 Block 58-C -- Dialog 37
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$162008
+#SCRIPT STOP:			$162325
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			042 Block 58-D -- Dialog 38
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$1626B2
+#SCRIPT STOP:			$162A3F
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			043 Block 58-E -- Dialog 39
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$162DCC
+#SCRIPT STOP:			$1630B5
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			044 Block 58-F -- Dialog 40
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$163442
+#SCRIPT STOP:			$16373B
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			045 Block 58-G -- Dialog 41
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$163AD3
+#SCRIPT STOP:			$163DC1
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			046 Block 59-A -- Dialog 42
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$164387
+#SCRIPT STOP:			$1646F7
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			047 Block 59-B -- Dialog 43
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$164A7F
+#SCRIPT STOP:			$164DE1
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			048 Block 59-C -- Dialog 44
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$16516E
+#SCRIPT STOP:			$165455
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			049 Block 59-D -- Dialog 45
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$1657DD
+#SCRIPT STOP:			$165B07
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			050 Block 59-E -- Dialog 46
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$165E8F
+#SCRIPT STOP:			$16619C
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			051 Block 59-F -- Dialog 47
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$166524
+#SCRIPT STOP:			$1668EE
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			052 Block 59-G -- Dialog 48
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$166C76
+#SCRIPT STOP:			$167001
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			053 Block 59-H -- Dialog 49
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$167389
+#SCRIPT STOP:			$1676ED
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			054 Block 59-I -- Dialog 50
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$167A75
+#SCRIPT STOP:			$167DEE
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			055 Block 5A-A -- Dialog 51
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$16838C
+#SCRIPT STOP:			$1686AD
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			056 Block 5A-B -- Dialog 52
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$168A3A
+#SCRIPT STOP:			$168D83
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			057 Block 5A-C -- Dialog 53
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$169110
+#SCRIPT STOP:			$1694A7
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			058 Block 5A-D -- Dialog 54
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$169834
+#SCRIPT STOP:			$169B57
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			059 Block 5A-E -- Dialog 55
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$169EE4
+#SCRIPT STOP:			$16A22F
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			060 Block 5A-F -- Dialog 56
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$16A345
+#SCRIPT STOP:			$16A642
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			061 Block 5A-G -- Dialog 57
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$16A7A6
+#SCRIPT STOP:			$16AB25
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			062 Block 5A-H -- Dialog 58
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$16AC9A
+#SCRIPT STOP:			$16B1D8
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			063 Block 5A-I -- Dialog 59
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$16B66B
+#SCRIPT STOP:			$16B995
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			064 Block 5A-J -- Dialog 60
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$16BAD1
+#SCRIPT STOP:			$16BEED
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			065 Block 61-A -- Tutorial 1
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$184000
+#POINTER TABLE STOP:	$184147
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS: 			No
+#BASE POINTER:			$180000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			066 Block 61-B -- Tutorial 2
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$1855D8
+#POINTER TABLE STOP:	$18564B
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS: 			No
+#BASE POINTER:			$180000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			067 Block 61-C -- Tutorial 3
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$185BBD
+#POINTER TABLE STOP:	$185C76
+#POINTER SIZE:			$02
+#POINTER SPACE:			$01
+#ATLAS PTRS: 			No
+#BASE POINTER:			$180000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			068 Block 61-D -- Tutorial 4
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$18635F
+#POINTER TABLE STOP:	$1863DA
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS: 			No
+#BASE POINTER:			$180000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			069 Block 61-E -- Tutorial 5
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$186AF1
+#POINTER TABLE STOP:	$186B56
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS: 			No
+#BASE POINTER:			$180000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			070 Block 61-F -- Tutorial 6
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$1870D7
+#POINTER TABLE STOP:	$187114
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS: 			No
+#BASE POINTER:			$180000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			071 Block 61-G -- Tutorial 7
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$187323
+#POINTER TABLE STOP:	$187344
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS: 			No
+#BASE POINTER:			$180000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			072 Block 61-H -- Tutorial 8
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$18750A
+#POINTER TABLE STOP:	$187511
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS: 			No
+#BASE POINTER:			$180000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			073 Block 61-I -- Tutorial 9
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$18756A
+#POINTER TABLE STOP:	$18757F
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS: 			No
+#BASE POINTER:			$180000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			074 Block 61-J -- Tutorial 10
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$1876C0
+#POINTER TABLE STOP:	$1876C5
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS: 			No
+#BASE POINTER:			$180000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			075 Block 61-K -- Tutorial 11
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$18773C
+#POINTER TABLE STOP:	$18773F
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS: 			No
+#BASE POINTER:			$180000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			076 Block 61-L -- Tutorial 12
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$187783
+#POINTER TABLE STOP:	$1877A2
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS: 			No
+#BASE POINTER:			$180000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			077 Block 61-M -- Tutorial 13
+#TYPE:					NORMAL
+#METHOD:				POINTER_RELATIVE
+#POINTER ENDIAN:		LITTLE
+#POINTER TABLE START:	$1878F9
+#POINTER TABLE STOP:	$18791C
+#POINTER SIZE:			$02
+#POINTER SPACE:			$00
+#ATLAS PTRS: 			No
+#BASE POINTER:			$180000
+#TABLE:					cardhero1-jap-short-PT.tbl
+#COMMENTS:				Yes
+#END BLOCK
+
+#BLOCK NAME:			078 Block 76-A -- Dialog 61
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$1D8F77
+#SCRIPT STOP:			$1D95AA
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			079 Block 76-B -- Dialog 62
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$1D9F7C
+#SCRIPT STOP:			$1DABEA
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			080 Block 78-A -- Name 1
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$1E047A
+#SCRIPT STOP:			$1E1DB0
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
+
+#BLOCK NAME:			081 Block 78-B -- Name 2
+#TYPE:					NORMAL
+#METHOD:				RAW
+#SCRIPT START:			$1E2A95
+#SCRIPT STOP:			$1E2E3B
+#TABLE:					cardhero1-jap-short.tbl
+#COMMENTS:				No
+#END BLOCK
