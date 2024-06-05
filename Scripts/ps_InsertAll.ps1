@@ -60,3 +60,23 @@
 .\ps_InsertPointers.ps1 cardhero1-script.txt_064.txt
 .\ps_InsertPointers.ps1 cardhero1-script.txt_078.txt
 .\ps_InsertPointers.ps1 cardhero1-script.txt_079.txt
+
+.\ps_InsertPointers1End.ps1 cardhero1-script.txt_017.txt
+.\ps_InsertPointers1End.ps1 cardhero1-script.txt_018.txt
+
+.\ps_StrToPtr.ps1 cardhero1-script.txt_000.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_001.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_065.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_066.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_067.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_068.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_069.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_070.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_071.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_072.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_073.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_074.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_075.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_076.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_077.txt
+.\ps_StrToPtr.ps1 cardhero1-script.txt_082_6b.txt
