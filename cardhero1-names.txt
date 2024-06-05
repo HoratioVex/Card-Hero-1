@@ -1,45 +1,45 @@
 MONSTER & MAGIC
 
-001	MONSTER	マナトット		manatotto
-002	MONSTER	？？？		？ ？ ？
-003	MONSTER	ゲッティ		getti
-004	MONSTER	ポンカー		ponkā
-005	MONSTER	ポポンカー		poponkā
-006	MONSTER	ウォータ		wōta
-007	MONSTER	タコッケー		takokkē
-008	MONSTER	ボムゾウ		bomuzō
-009	MONSTER	ボムノスケ		bomunosuke
-010	MONSTER	コワイル		kowairu			Sheleton
-011	MONSTER	ワイルダー		wairudā			
-012	MONSTER	シゴトにん		shigoto nin
-013	MONSTER	ジャレス		ja resu
-014	MONSTER	ジャレット		ja retto
-015	MONSTER	ポリゴマ		pori goma
-016	MONSTER	エルゴマ		eru goma
-017	MONSTER	ビヨンド		biyondo			Byom
+001	MONSTER	マナトット		manatotto		Manatot
+002	MONSTER	？？？		？ ？ ？			Papatot
+003	MONSTER	ゲッティ		getti			Ketty			geira
+004	MONSTER	ポンカー		ponkā			Ponka			poppuru
+005	MONSTER	ポポンカー		poponkā			Poponka			ragapoppuru
+006	MONSTER	ウォータ		wōta			Aquirk			eru soru
+007	MONSTER	タコッケー		takokkē			Octopal
+008	MONSTER	ボムゾウ		bomuzō			Bombino
+009	MONSTER	ボムノスケ		bomunosuke		Bombozzo
+010	MONSTER	コワイル		kowairu			Grimbone		Sheleton
+011	MONSTER	ワイルダー		wairudā			Graveheart
+012	MONSTER	シゴトにん		shigoto nin		Mercenobi
+013	MONSTER	ジャレス		ja resu			Jarang
+014	MONSTER	ジャレット		ja retto		Jamorang
+015	MONSTER	ポリゴマ		pori goma		Polytop
+016	MONSTER	エルゴマ		eru goma		Turbotop
+017	MONSTER	ビヨンド		biyondo			Biyom
 018	MONSTER	ルージュ		rūju			Rougette
-019	MONSTER	マッコイ		makkoi
-020	MONSTER	ヤンバル		yan baru
-021	MONSTER	ガンター		gantā
-022	MONSTER	ドガンター		dogantā
-023	MONSTER	ヴァルテル		varuteru		Pepeka
-024	MONSTER	ケッコウ		kekkō
-025	MONSTER	スライ			surai
-026	MAGIC	ヒーリング		hīringu
-027	MAGIC	ハードシールド	hādo shīrudo
-028	MAGIC	パワーダウン		pawādaun
-029	MAGIC	ウェイクアップ	weikuappu
-030	MAGIC	でなおし		denaoshi
-031	MAGIC	ドロー５		dorō go
-032	MAGIC	レベルチェンジ	reberu chenji
-033	MAGIC	バーサクパワー	bāsakupawā
-034	MAGIC	サンダー		sandā
-035	MAGIC	パワーアップ		pawāappu
+019	MONSTER	マッコイ		makkoi			Kibeki
+020	MONSTER	ヤンバル		yan baru		Yanbar
+021	MONSTER	ガンター		gantā			Gantas
+022	MONSTER	ドガンター		dogantā			Megantas
+023	MONSTER	ヴァルテル		varuteru		Valcruz
+024	MONSTER	ケッコウ		kekkō			Cluckoo
+025	MONSTER	スライ			surai			Silas
+026	MAGIC	ヒーリング		hīringu			Heal
+027	MAGIC	ハードシールド	hādo shīrudo	Shield
+028	MAGIC	パワーダウン		pawādaun		Power Down
+029	MAGIC	ウェイクアップ	weikuappu		Wake Up
+030	MAGIC	でなおし		denaoshi		Refresh
+031	MAGIC	ドロー５		dorō go			Draw 5
+032	MAGIC	レベルチェンジ	reberu chenji	Level Change
+033	MAGIC	バーサクパワー	bāsakupawā		Berserk Rage
+034	MAGIC	サンダー		sandā			Thunderbolt
+035	MAGIC	パワーアップ		pawāappu		Power Up
 
 MAGICAL WORLD
 
-036	MONSTER	レイラ			reira
-037	MONSTER	レイババ		rei baba
+036	MONSTER	レイラ			reira			Leyra
+037	MONSTER	レイババ		rei baba		Leylara
 038	MONSTER	ラッティ		ratti
 039	MONSTER	ドラッティ		doratti
 040	MONSTER	ヤミー			yamī
@@ -68,7 +68,7 @@ MAGICAL WORLD
 063	MAGIC	ゆうだち		yūda chi
 064	MAGIC	ハイヒーリング	haihīringu
 065	MAGIC	あっかんべ		akkanbe
-066	MAGIC	？？？		？ ？ ？
+066	MAGIC	てんしのラッパ	tenshi no rappa		Angel's Trumpet
 
 STRANGE KIND
 
@@ -94,7 +94,7 @@ STRANGE KIND
 086	MAGIC	ぶよシールド		buyo shīrudo
 087	MAGIC	ローテーション	rōtēshon
 088	MAGIC	おまもり		o mamori
-089	MONSTER	？？？		？ ？ ？
+089	MONSTER にゃあお		ni yāo
 
 SUPER INCLUDE
 
@@ -118,5 +118,5 @@ SUPER INCLUDE
 107	MAGIC	きあいだめ		ki aidame
 108	MAGIC	みがわり		migawari
 109	MAGIC	へんしんミラー	henshin mirā
-110	MONSTER	？？？	　	？ ？ ？ 
+110	MONSTER	モーガン 	　	mō gan 
 

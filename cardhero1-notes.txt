@@ -84,11 +84,7 @@ text banks (25)
 list 3byte lit-end -> list of 14 2byte lit-end -> list 00-terminated of 2byte big-end  
 
 unprocessed:
-000
-001
-016
-017
-018
-065-077
-080
-081
+
+016 1 block, no pointers? (separator $E6?)
+080 mix, pointers? unclear separators
+081 1 bloc, no pointers, fixed length?
