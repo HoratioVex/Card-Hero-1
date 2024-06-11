@@ -49,7 +49,7 @@ MAGICAL WORLD
 044	MONSTER	コカッパー		kokappā			Grennix
 045	MONSTER	カッパラー		kapparā			Nixodor
 046	MONSTER	チャーミ		chāmi			Razzmok
-047	MONSTER	スッピーン		suppīn			Pureen
+047	MONSTER	スッピーン		suppīn			Pyureen
 048	MONSTER	チュトロ		chutoro			Slurpula
 049	MONSTER	ぎんじ		ginji			Ginjy / Hoppy
 050	MONSTER	アップル		appuru			Popple
@@ -85,38 +85,38 @@ STRANGE KIND
 077	MONSTER	おやこだま		oya kodama		Mombom			ParentOrb Ovaboom
 078	MONSTER	ジャベール		ja bēru			Spiercel
 079	MONSTER	トリゴミー		torigomī		Goblitter
-080	MAGIC	キエルストーン	kierusutōn		Destroy Stones / Burn Stones
+080	MAGIC	キエルストーン	kierusutōn		Destroy Stones  Burn Stones
 081	MAGIC	シャッフル		shaffuru		Shuffle Next
 082	MAGIC	ハリケーン		harikēn			Tornado
 083	MAGIC	ならべかえ		narabe kae		Rearrange Next
 084	MAGIC	マッドファイア		maddofaia		Chaos Flame
 085	MAGIC	ゆうわく		yū waku			Temptation
-086	MAGIC	ぶよシールド		buyo shīrudo	Rubber Shield / Soft Shield
+086	MAGIC	ぶよシールド		buyo shīrudo	Rubber Shield 	Soft Shield
 087	MAGIC	ローテーション	rōtēshon		Rotate Field
 088	MAGIC	おまもり		o mamori		Talisman
 089	MONSTER にゃあお		ni yāo			Meeouch
 
 SUPER INCLUDE
 
-090	MONSTER	カップン		kappun			Kiba
-091	MONSTER	ガブッチョ		gabuccho		Agito
-092	MONSTER	ヤンペロン		yanperon
-093	MONSTER	なぞえもん		nazoe mon
-094	MONSTER	ドンチャン		don chan
-095	MONSTER	ガスキン		ga sukin
-096	MONSTER	ウズフラー		uzufurā
-097	MONSTER	ガァガ			gāga
-098	MONSTER	ナイリー		nairī
-099	MAGIC	リフレッシュ		rifuresshu
-100	MAGIC	ジアーゲン		jiāgen
-101	MAGIC	ブラックレイン	burakkurein
-102	MAGIC	かげぬい		kagenui
-103	MAGIC	リターン		ritān
-104	MAGIC	バイコストーン	baikosutōn
-105	MAGIC	バウンシールド	baunshīrudo
-106	MAGIC	おはらい		oharai
-107	MAGIC	きあいだめ		ki aidame
-108	MAGIC	みがわり		migawari
-109	MAGIC	へんしんミラー	henshin mirā
-110	MONSTER	モーガン 	　	mō gan 
+090	MONSTER	カップン		kappun			Eggnaw
+091	MONSTER	ガブッチョ		gabuccho		Chomposaur
+092	MONSTER	ヤンペロン		yanperon		Shlurp
+093	MONSTER	なぞえもん		nazo emon		Mystomasq	
+094	MONSTER	ドンチャン		don chan		Timbong
+095	MONSTER	ガスキン		ga sukin		Geskyn
+096	MONSTER	ウズフラー		uzufurā			Wibblezip
+097	MONSTER	ガァガ			gāga			Rimquack
+098	MONSTER	ナイリー		nairī			Nairi
+099	MAGIC	リフレッシュ		rifuresshu		Redraw
+100	MAGIC	ジアーゲン		jiāgen			Haunt
+101	MAGIC	ブラックレイン	burakkurein		Black Rain
+102	MAGIC	かげぬい		kagenui			Shadow Bind
+103	MAGIC	リターン		ritān			Banish
+104	MAGIC	バイコストーン	baikosutōn		Double Stones
+105	MAGIC	バウンシールド	baunshīrudo		Bounce Shield   Reflect Shield
+106	MAGIC	おはらい		oharai			Cleanse
+107	MAGIC	きあいだめ		ki aidame		Focus
+108	MAGIC	みがわり		migawari		Scapegoat
+109	MAGIC	へんしんミラー	henshin mirā	Morph Mirror
+110	MONSTER	モーガン 	　	mō gan 			Mokahn	 		Silverwing Goldbeak Ironbeak Steelclaw
 
