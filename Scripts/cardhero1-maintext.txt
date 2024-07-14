@@ -20,19 +20,24 @@
 //Block Range: $55145 - $57F3C
 // 0 -- 15:5145
 #WRITE(Ptr,$55145)
-55145<EN>
+Pleasure doing business<LF>
+with you.<EN>
 //
 //「まいど-<EN>
 
 // 1 -- 15:514C
 #WRITE(Ptr,$5514C)
-5514C<EN>
+You don't have the money…<EN>
 //
 //「おかねが たりないねえ…<EN>
 
 // 2 -- 15:515B
 #WRITE(Ptr,$5515B)
-5515B<EN>
+Shopkeeper:<LF>
+Oh, there it is.<LF>
+"<C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1>"<LF>
+That's a pretty rare card!<EN>
+
 //
 //てんちょう<LF>
 //「おおっ でたあ-っ!<LF>
@@ -41,7 +46,9 @@
 
 // 3 -- 15:518A
 #WRITE(Ptr,$5518A)
-5518A<EN>
+You can brag about this one<LF>
+to your friends! Way to go,<LF>
+<N1>!<EN>
 //
 //「こいつは ともだちに<LF>
 // じまん できるぞ!<LF>
@@ -49,7 +56,8 @@
 
 // 4 -- 15:51B2
 #WRITE(Ptr,$551B2)
-551B2<EN>
+This won't do.<LF>
+It doesn't fit in the binder.<EN>
 //
 //「だめだ!<LF>
 // このままじゃあ バインダ-に<LF>
@@ -57,7 +65,9 @@
 
 // 5 -- 15:51D4
 #WRITE(Ptr,$551D4)
-551D4<EN>
+"<C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1>"<LF>
+"<C2><C2><C2><C2><C2><C2><C2><C2><C2><C2><C2><C2><C2><C2>"<LF>
+You get "<C3><C3><C3><C3><C3><C3><C3><C3><C3><C3><C3><C3><C3><C3>"<EN>
 //
 //『<C1><C1><C1><C1><C1><C1><C1>』<LF>
 //『<C2><C2><C2><C2><C2><C2><C2>』<LF>
@@ -65,14 +75,18 @@
 
 // 6 -- 15:51FA
 #WRITE(Ptr,$551FA)
-551FA<EN>
+"<C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1>"<LF>
+received!<EN>
 //
 //『<C1><C1><C1><C1><C1><C1><C1>』を<LF>
 // ゲットしたぞ!<EN>
 
 // 7 -- 15:520F
 #WRITE(Ptr,$5520F)
-5520F<EN>
+You can't even carry all that<LF>
+money. Sorry, but I won't trade<LF>
+with you anymore.<EN>
+
 //
 //「? もう、もちきれないほど<LF>
 // おかねを もってるじゃないか。<LF>
@@ -81,7 +95,8 @@
 
 // 8 -- 15:5247
 #WRITE(Ptr,$55247)
-55247<EN>
+Sorry, but you can't hold that<LF>
+much money.<EN>
 //
 //「だめだ<LF>
 // おかねを もちきれないぞ!<LF>
@@ -90,7 +105,9 @@
 
 // 9 -- 15:5260
 #WRITE(Ptr,$55260)
-55260<EN>
+Hmm... you can't carry any more<LF>
+money, so let's forget about<LF>
+that card.<EN>
 //
 //う～ん………しょうがない<LF>
 //おかねを もてるだけ もって<LF>
@@ -98,7 +115,9 @@
 
 // 10 -- 15:5288
 #WRITE(Ptr,$55288)
-55288<EN>
+Shopkeeper:<LF>
+I'll sell your card as a<LF>
+single to another shop.<EN>
 //
 //てんちょう<LF>
 //「きみのカ-ドは ちかいうちに<LF>
@@ -107,14 +126,19 @@
 
 // 11 -- 15:52BA
 #WRITE(Ptr,$552BA)
-552BA<EN>
+The binder is full. There's no<LF>
+space for<LF>
+"<C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1>".<EN>
 //
 //でも、バインダ-が いっぱいで<LF>
 //『<C1><C1><C1><C1><C1><C1><C1>』は はいらない<EN>
 
 // 12 -- 15:52DC
 #WRITE(Ptr,$552DC)
-552DC<EN>
+Sorry, the binders are full.<LF>
+"<C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1>"<LF>
+"<C2><C2><C2><C2><C2><C2><C2><C2><C2><C2><C2><C2><C2><C2>"<LF>
+won't work.<EN>
 //
 //でも、バインダ-が いっぱいで<LF>
 //『<C1><C1><C1><C1><C1><C1><C1>』<LF>
@@ -122,7 +146,10 @@
 
 // 13 -- 15:5308
 #WRITE(Ptr,$55308)
-55308<EN>
+Your binders are full. Can't<LF>
+"<C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1><C1>"<LF>
+"<C2><C2><C2><C2><C2><C2><C2><C2><C2><C2><C2><C2><C2><C2>"<LF>
+"<C3><C3><C3><C3><C3><C3><C3><C3><C3><C3><C3><C3><C3><C3>"<EN>
 //
 //でも、バインダ-が いっぱいで<LF>
 //『<C1><C1><C1><C1><C1><C1><C1>』<LF>
@@ -131,7 +158,9 @@
 
 // 14 -- 15:533E
 #WRITE(Ptr,$5533E)
-5533E<EN>
+Shopkeeper:<LF>
+I'll give you <C2><C2><C2><C2> Yen<LF>
+for the cards you can't carry.<EN>
 //
 //てんちょう<LF>
 //「じゃあ、もちきれない カ-ドは<LF>
@@ -140,7 +169,9 @@
 
 // 15 -- 15:536F
 #WRITE(Ptr,$5536F)
-5536F<EN>
+Shopkeeper:<LF>
+Ok, I'll buy that card for<LF>
+<C2><C2><C2><C2> Yen.<EN>
 //
 //てんちょう<LF>
 //「じゃあ、<LF>
@@ -149,7 +180,8 @@
 
 // 16 -- 15:5397
 #WRITE(Ptr,$55397)
-55397<EN>
+Impossible. You can't have<LF>
+any more decks.<EN>
 //
 //「だめだ<LF>
 // デッキメモは これいじょう<LF>
@@ -157,7 +189,10 @@
 
 // 17 -- 15:53B3
 #WRITE(Ptr,$553B3)
-553B3<EN>
+You already have <C1> copies.<LF>
+Do you really want to buy<LF>
+another one?<LF>
+    Yes    No<EN>
 //
 //「きみは <C1>まい もってるよ。<LF>
 // それでも かうんだね?<LF>
@@ -166,7 +201,10 @@
 
 // 18 -- 15:53E1
 #WRITE(Ptr,$553E1)
-553E1<EN>
+Shopkeeper:<LF>
+Welcome to Card Shop<LF>
+Maruhigeya! Hmm, I wonder...<LF>
+Could you be...<EN>
 //
 //てんちょう<LF>
 //「ようこそ<LF>
@@ -175,7 +213,9 @@
 
 // 19 -- 15:540E
 #WRITE(Ptr,$5540E)
-5540E<EN>
+I knew it! You're here for<LF>
+Card Hero, right? It's really<LF>
+popular! Wait a sec...<EN>
 //
 //「やっぱり<LF>
 // カ-ドヒ-ロ-だね?<LF>
@@ -184,7 +224,9 @@
 
 // 20 -- 15:543D
 #WRITE(Ptr,$5543D)
-5543D<EN>
+Look, this is a Card Hero<LF>
+starter set. This is the first<LF>
+thing you need to buy.<EN>
 //
 //「ほら、カ-ドヒ-ロ-の<LF>
 // スタ-トセットだよ。<LF>
@@ -193,13 +235,14 @@
 
 // 21 -- 15:546F
 #WRITE(Ptr,$5546F)
-5546F<EN>
+Please listen carefully.<EN>
 //
 //「せつめいを きいておくれよ。<EN>
 
 // 22 -- 15:5480
 #WRITE(Ptr,$55480)
-55480<EN>
+That's not enough for playing<LF>
+the game, though.<EN>
 //
 //「はい、まいどあり……<LF>
 // と、いっても これだけじゃ<LF>
@@ -207,7 +250,10 @@
 
 // 23 -- 15:54A6
 #WRITE(Ptr,$554A6)
-554A6<EN>
+The Lord can't do a card battle<LF>
+alone, he needs monsters to<LF>
+summon. There are many<LF>
+different kinds!<EN>
 //
 //「マスタ-が あやつる<LF>
 // カ-ドがないと<LF>
@@ -216,7 +262,8 @@
 
 // 24 -- 15:54D8
 #WRITE(Ptr,$554D8)
-554D8<EN>
+Oh, so you're out of money?<LF>
+That's a problem. Hmm...<EN>
 //
 //「… そうか きみたち<LF>
 // もう、おかねが ないんだね?<LF>
@@ -225,7 +272,9 @@
 
 // 25 -- 15:5509
 #WRITE(Ptr,$55509)
-55509<EN>
+Well, I suppose I can give you<LF>
+some cards as a promotional<LF>
+gift.<EN>
 //
 //「よ-し わかった、<LF>
 // だいサ-ビスだ!<LF>
@@ -234,14 +283,16 @@
 
 // 26 -- 15:553C
 #WRITE(Ptr,$5553C)
-5553C<EN>
+Here, you can have these three.<EN>
 //
 //「おとこのコ には<LF>
 // この、3まいを あげよう!<EN>
 
 // 27 -- 15:5556
 #WRITE(Ptr,$55556)
-55556<EN>
+<N1> receives<LF>
+3x Manatot<LF>
+Monster cards!<EN>
 //
 //<N1>は<LF>
 //モンスタ-カ-ド<LF>
@@ -250,7 +301,9 @@
 
 // 28 -- 15:557B
 #WRITE(Ptr,$5557B)
-5557B<EN>
+Shopkeeper:<LF>
+Here you go. I'll give these<LF>
+three to the young lady.<EN>
 //
 //てんちょう<LF>
 //「はい どうぞ、<LF>
@@ -259,7 +312,9 @@
 
 // 29 -- 15:55A5
 #WRITE(Ptr,$555A5)
-555A5<EN>
+Kumi:<LF>
+Wow, that's so sweet of you!<LF>
+Thank youuuu!<EN>
 //
 //クミ<LF>
 //「わ-い!<LF>
@@ -267,7 +322,10 @@
 
 // 30 -- 15:55BC
 #WRITE(Ptr,$555BC)
-555BC<EN>
+Shopkeeper:<LF>
+You're welcome. You should use<LF>
+those cards to learn the basics<LF>
+of the game.<EN>
 //
 //てんちょう<LF>
 //「どういたしまして!<LF>
@@ -276,7 +334,10 @@
 
 // 31 -- 15:55ED
 #WRITE(Ptr,$555ED)
-555ED<EN>
+The starter set comes with a<LF>
+rule book. You should find<LF>
+someone to help you work<LF>
+through it and try the game.<EN>
 //
 //「スタ-トセットには<LF>
 // ル-ルブックが ついてるから<LF>
@@ -285,7 +346,9 @@
 
 // 32 -- 15:5625
 #WRITE(Ptr,$55625)
-55625<EN>
+Kumi:<LF>
+Hey <N1>, let's go home<LF>
+and try it out!<EN>
 //
 //クミ<LF>
 //「ねぇ <N1>、<LF>
@@ -294,7 +357,10 @@
 
 // 33 -- 15:564E
 #WRITE(Ptr,$5564E)
-5564E<EN>
+Shopkeeper:<LF>
+Learn those rules quickly,<LF>
+you two, then come back and<LF>
+talk to me again.<EN>
 //
 //てんちょう<LF>
 //「はやく ル-ルをおぼえて<LF>
@@ -303,14 +369,17 @@
 
 // 34 -- 15:5677
 #WRITE(Ptr,$55677)
-55677<EN>
+We sell lots of great cards!<EN>
 //
 //「みりょくてきな カ-ドが<LF>
 // いっぱい そろっているよ!<EN>
 
 // 35 -- 15:5695
 #WRITE(Ptr,$55695)
-55695<EN>
+Shopkeeper:<LF>
+Come again.<LF>
+But next time,<LF>
+bring more money.<EN>
 //
 //てんちょう<LF>
 //「おかねを もって<LF>
@@ -318,7 +387,9 @@
 
 // 36 -- 15:56B3
 #WRITE(Ptr,$556B3)
-556B3<EN>
+This is the "Lord" card.<LF>
+It's the focal point of<LF>
+card battles.<EN>
 //
 //「これは<LF>
 // 『マスタ-カ-ド』だ!<LF>
@@ -327,7 +398,8 @@
 
 // 37 -- 15:56E3
 #WRITE(Ptr,$556E3)
-556E3<EN>
+The Lord controls all the<LF>
+other cards.<EN>
 //
 //「ほかの<LF>
 // いろいろな カ-ドを、<LF>
@@ -336,14 +408,15 @@
 
 // 38 -- 15:570B
 #WRITE(Ptr,$5570B)
-5570B<EN>
+As for how the game works...<EN>
 //
 //「おつぎは<LF>
 // こっちの せつめいだ。<EN>
 
 // 39 -- 15:571F
 #WRITE(Ptr,$5571F)
-5571F<EN>
+There is this bag that's full<LF>
+of little stones.<EN>
 //
 //「この ふくろのなかに<LF>
 // たくさん はいっている<LF>
@@ -352,7 +425,9 @@
 
 // 40 -- 15:574E
 #WRITE(Ptr,$5574E)
-5574E<EN>
+In Card Hero, these magic<LF>
+Stones are the source of<LF>
+energy.<EN>
 //
 //「カ-ドヒ-ロ-の せかいでの<LF>
 // エネルギ-の みなもと、<LF>
@@ -361,7 +436,10 @@
 
 // 41 -- 15:577F
 #WRITE(Ptr,$5577F)
-5577F<EN>
+Using the mysterious power of<LF>
+the Stones, the Lord can cast<LF>
+various spells. That's the<LF>
+theme behind it.<EN>
 //
 //「このスト-ンの ふしぎな<LF>
 // ちからで、マスタ-は いろんな<LF>
@@ -370,7 +448,10 @@
 
 // 42 -- 15:57BF
 #WRITE(Ptr,$557BF)
-557BF<EN>
+Was that too fast? Should I<LF>
+repeat my explanation?<LF>
+<LF>
+    Yes    No<EN>
 //
 //「もういちど<LF>
 // せつめい しようかな?<LF>
@@ -379,7 +460,10 @@
 
 // 43 -- 15:57E4
 #WRITE(Ptr,$557E4)
-557E4<EN>
+Shopkeeper:<LF>
+You want to buy cards right<LF>
+away? That makes me really<LF>
+happy!<EN>
 //
 //てんちょう<LF>
 //「! さっそく カ-ドを<LF>
@@ -388,7 +472,9 @@
 
 // 44 -- 15:5815
 #WRITE(Ptr,$55815)
-55815<EN>
+Shopkeeper:<LF>
+Oh my, young lady, you seem to<LF>
+be quite grumpy today.<EN>
 //
 //てんちょう<LF>
 //「おやおや おじょうちゃん、<LF>
@@ -397,7 +483,9 @@
 
 // 45 -- 15:5844
 #WRITE(Ptr,$55844)
-55844<EN>
+It's not like you keep losing<LF>
+practice matches or anything,<LF>
+is it?<EN>
 //
 //「れんしゅう バトルで<LF>
 // たてつづけに まけた…<LF>
@@ -405,7 +493,10 @@
 
 // 46 -- 15:586F
 #WRITE(Ptr,$5586F)
-5586F<EN>
+Shopkeeper:<LF>
+After all, I gave you a<LF>
+Valcruz. There's no way you<LF>
+could lose with that, right?<EN>
 //
 //てんちょう<LF>
 //「おじょうちゃんには<LF>
@@ -414,7 +505,9 @@
 
 // 47 -- 15:58A0
 #WRITE(Ptr,$558A0)
-558A0<EN>
+Huh...? Valcruz is weak and<LF>
+useless?! No way, you must be<LF>
+kidding.<EN>
 //
 //「… ? ヴァルテルは<LF>
 // よわくって つかえない?!<LF>
@@ -422,7 +515,10 @@
 
 // 48 -- 15:58C9
 #WRITE(Ptr,$558C9)
-558C9<EN>
+Oh... You guys must be the<LF>
+reason this rulebook has a<LF>
+section called "For Complete<LF>
+Beginners"...<EN>
 //
 //「! はは-ん<LF>
 // きみたちは ル-ルブックの<LF>
@@ -431,7 +527,9 @@
 
 // 49 -- 15:5900
 #WRITE(Ptr,$55900)
-55900<EN>
+So you just played a practice<LF>
+match, right? And you fought<LF>
+with two monsters?<EN>
 //
 //「れんしゅう バトルを<LF>
 // おえた ところだね?<LF>
@@ -440,7 +538,9 @@
 
 // 50 -- 15:5933
 #WRITE(Ptr,$55933)
-55933<EN>
+But actually, there are four<LF>
+spots where you can summon<LF>
+monsters in the offical rules.<EN>
 //
 //「じつは<LF>
 // せいしき ル-ルでは<LF>
@@ -449,7 +549,8 @@
 
 // 51 -- 15:5961
 #WRITE(Ptr,$55961)
-55961<EN>
+I've got just the thing for<LF>
+you, my friends!<EN>
 //
 //「そんな きみたちに<LF>
 // おあつらえむきの グッズが<LF>
@@ -457,7 +558,9 @@
 
 // 52 -- 15:598C
 #WRITE(Ptr,$5598C)
-5598C<EN>
+Ta-da! A battle mat! Put it<LF>
+down and we'll play a round<LF>
+on it.<EN>
 //
 //「ジャ-ン!<LF>
 // これは『バトルマット』だ。<LF>
@@ -466,7 +569,9 @@
 
 // 53 -- 15:59BE
 #WRITE(Ptr,$559BE)
-559BE<EN>
+This mat is designed to make<LF>
+it easy to see where to place<LF>
+cards and other things.<EN>
 //
 //「このマットは、<LF>
 // カ-ドを おくばしょ などが<LF>
@@ -475,7 +580,9 @@
 
 // 54 -- 15:59F4
 #WRITE(Ptr,$559F4)
-559F4<EN>
+It's perfect for learners who<LF>
+are ready to take the next<LF>
+step.<EN>
 //
 //「これから<LF>
 // つぎの ステップへすすむ<LF>
@@ -483,7 +590,9 @@
 
 // 55 -- 15:5A18
 #WRITE(Ptr,$55A18)
-55A18<EN>
+And this amazing battle mat<LF>
+can be yours for only<LF>
+250 Yen!<EN>
 //
 //「この、<LF>
 // すんばらしい バトルマットが、<LF>
@@ -491,7 +600,10 @@
 
 // 56 -- 15:5A40
 #WRITE(Ptr,$55A40)
-55A40<EN>
+Shopkeeper:<LF>
+However, since we're having a<LF>
+sale to get new players into<LF>
+the game...<EN>
 //
 //てんちょう<LF>
 //「ところが どっこい<LF>
@@ -500,7 +612,9 @@
 
 // 57 -- 15:5A6B
 #WRITE(Ptr,$55A6B)
-55A6B<EN>
+For you, it'll be only<LF>
+200 Yen! What an incredible<LF>
+deal!<EN>
 //
 //「なんと、<LF>
 // おトクな 200えん!<LF>
@@ -508,7 +622,9 @@
 
 // 58 -- 15:5A8F
 #WRITE(Ptr,$55A8F)
-55A8F<EN>
+And remember, two people can<LF>
+play using the same mat. That's<LF>
+amazing value right there!<EN>
 //
 //てんちょう<LF>
 //「バトルマットは 1まいあれば<LF>
@@ -517,7 +633,9 @@
 
 // 59 -- 15:5AC2
 #WRITE(Ptr,$55AC2)
-55AC2<EN>
+Shopkeeper:<LF>
+What? You're broke again,<LF>
+aren't you?<EN>
 //
 //てんちょう<LF>
 //「えっ?<LF>
@@ -526,7 +644,9 @@
 
 // 60 -- 15:5AE9
 #WRITE(Ptr,$55AE9)
-55AE9<EN>
+Hey, do you really expect me<LF>
+to give you everything<LF>
+for free?<EN>
 //
 //「! なんだって<LF>
 // タダで よこせって<LF>
@@ -534,7 +654,9 @@
 
 // 61 -- 15:5B07
 #WRITE(Ptr,$55B07)
-55B07<EN>
+What a demanding kid you are!<LF>
+No, I can't give in to you<LF>
+so often.<EN>
 //
 //てんちょう<LF>
 //「ムチャをいう おじょうちゃん<LF>
@@ -543,7 +665,10 @@
 
 // 62 -- 15:5B3D
 #WRITE(Ptr,$55B3D)
-55B3D<EN>
+Shopkeeper:<LF>
+Come now, don't glare at me<LF>
+like that. I still have a<LF>
+business to run here, you know.<EN>
 //
 //てんちょう<LF>
 //「おいおい ニラまないでくれよ<LF>
@@ -552,14 +677,16 @@
 
 // 63 -- 15:5B6E
 #WRITE(Ptr,$55B6E)
-55B6E<EN>
+Shopkeeper:<LF>
+Hi there.<EN>
 //
 //てんちょう<LF>
 //「やあ、きみたち。<EN>
 
 // 64 -- 15:5B7F
 #WRITE(Ptr,$55B7F)
-55B7F<EN>
+Shopkeeper:<LF>
+Oh, isn't the girl with you?<EN>
 //
 //てんちょう<LF>
 // おや、<LF>
@@ -567,7 +694,10 @@
 
 // 65 -- 15:5B9C
 #WRITE(Ptr,$55B9C)
-55B9C<EN>
+Shopkeeper:<LF>
+What? You're asking whether<LF>
+there's a monster that can be<LF>
+effective in the back row?<EN>
 //
 //てんちょう<LF>
 //「なに?<LF>
@@ -576,7 +706,8 @@
 
 // 66 -- 15:5BC7
 #WRITE(Ptr,$55BC7)
-55BC7<EN>
+Good question! There really is<LF>
+one. Look at this card.<EN>
 //
 //「よくきづいたね、<LF>
 // ちゃんと いるんだよ!<LF>
@@ -584,7 +715,8 @@
 
 // 67 -- 15:5BEC
 #WRITE(Ptr,$55BEC)
-55BEC<EN>
+This is Yanbar, a typical<LF>
+back row monster.<EN>
 //
 //「このモンスタ-は<LF>
 // 『ヤンバル』といって<LF>
@@ -593,7 +725,9 @@
 
 // 68 -- 15:5C1E
 #WRITE(Ptr,$55C1E)
-55C1E<EN>
+Here, take the card and<LF>
+examine it closely. Do you see<LF>
+that special symbol there?<EN>
 //
 //「ほら、<LF>
 // てにとって よくみてごらん。<LF>
@@ -602,7 +736,8 @@
 
 // 69 -- 15:5C4E
 #WRITE(Ptr,$55C4E)
-55C4E<EN>
+It's the one next to the<LF>
+"Short Jump" attack.<EN>
 //
 //「『いっそうとび』という<LF>
 // こうげきの ところに<LF>
@@ -610,7 +745,9 @@
 
 // 70 -- 15:5C77
 #WRITE(Ptr,$55C77)
-55C77<EN>
+It means the attack jumps over<LF>
+the adjacent monster. In other<LF>
+words, it skips a square.<EN>
 //
 //「めのまえの モンスタ-<LF>
 // などを とびこして…<LF>
@@ -619,7 +756,10 @@
 
 // 71 -- 15:5CAC
 #WRITE(Ptr,$55CAC)
-55CAC<EN>
+That's why this monster can<LF>
+stay in the back row and still<LF>
+attack from there. Try to<LF>
+visualize it!<EN>
 //
 //「だから うしろにいて<LF>
 // そこから あいてがわに<LF>
@@ -628,7 +768,9 @@
 
 // 72 -- 15:5CE0
 #WRITE(Ptr,$55CE0)
-55CE0<EN>
+Shopkeeper:<LF>
+Yes, you probably have the<LF>
+right idea there.<EN>
 //
 //てんちょう<LF>
 //「おじょうちゃんの そうぞうは<LF>
@@ -636,14 +778,16 @@
 
 // 73 -- 15:5D03
 #WRITE(Ptr,$55D03)
-55D03<EN>
+Shopkeeper:<LF>
+I can't give that to you.<EN>
 //
 //てんちょう<LF>
 //「あげるワケには いかないよ。<EN>
 
 // 74 -- 15:5D1A
 #WRITE(Ptr,$55D1A)
-55D1A<EN>
+Shopkeeper:<LF>
+I already gave you a Valcruz.<EN>
 //
 //てんちょう<LF>
 //「だって、<LF>
@@ -652,7 +796,9 @@
 
 // 75 -- 15:5D3F
 #WRITE(Ptr,$55D3F)
-55D3F<EN>
+Shopkeeper:<LF>
+That symbol means you can<LF>
+attack anywhere.<EN>
 //
 //てんちょう<LF>
 //「そのマ-クは<LF>
@@ -661,7 +807,8 @@
 
 // 76 -- 15:5D6E
 #WRITE(Ptr,$55D6E)
-55D6E<EN>
+So Valcruz can do damage from<LF>
+the back row.<EN>
 //
 //「つまり、<LF>
 // ヴァルテルは うしろから<LF>
@@ -669,7 +816,10 @@
 
 // 77 -- 15:5D94
 #WRITE(Ptr,$55D94)
-55D94<EN>
+Even though it has just 1 HP,<LF>
+Valcruz can be useful in the<LF>
+back row, if you know how to<LF>
+use it.<EN>
 //
 //「HPが1の ヴァルテルも<LF>
 // うしろに いれば<LF>
@@ -678,7 +828,10 @@
 
 // 78 -- 15:5DCD
 #WRITE(Ptr,$55DCD)
-55DCD<EN>
+What? Your wallet is too small<LF>
+for all this money? Well, then<LF>
+let's donate the rest to<LF>
+charity.<EN>
 //
 //「なぬ、サイフに<LF>
 // ぜんぶは はいらないって?<LF>
@@ -687,7 +840,9 @@
 
 // 79 -- 15:5E08
 #WRITE(Ptr,$55E08)
-55E08<EN>
+Shopkeeper:<LF>
+Phew, it seems you finally<LF>
+get the idea now.<EN>
 //
 //てんちょう<LF>
 //「やれやれ、<LF>
@@ -696,7 +851,9 @@
 
 // 80 -- 15:5E2B
 #WRITE(Ptr,$55E2B)
-55E2B<EN>
+Now, that guy over there needs<LF>
+to have a monster in his back<LF>
+row.<EN>
 //
 //「さて、<LF>
 // そっちの おとこのコも<LF>
@@ -705,7 +862,8 @@
 
 // 81 -- 15:5E59
 #WRITE(Ptr,$55E59)
-55E59<EN>
+The girl has a Valcruz, don't<LF>
+underestimate her.<EN>
 //
 //「ヴァルテルを もっている<LF>
 // おじょうちゃんとは、<LF>
@@ -713,7 +871,10 @@
 
 // 82 -- 15:5E83
 #WRITE(Ptr,$55E83)
-55E83<EN>
+Also, please save your pocket<LF>
+money and come visit my shop<LF>
+again. I have tons of great<LF>
+cards!<EN>
 //
 //「また、おこづかいを ためて<LF>
 // かいにきて おくれよな。<LF>
@@ -721,7 +882,8 @@
 
 // 83 -- 15:5EAD
 #WRITE(Ptr,$55EAD)
-55EAD<EN>
+Huh? You thought you would get<LF>
+a card? How greedy...<EN>
 //
 //「あ、あれ?<LF>
 // カ-ドを もらえると<LF>
@@ -729,7 +891,9 @@
 
 // 84 -- 15:5ECF
 #WRITE(Ptr,$55ECF)
-55ECF<EN>
+Kumi:<LF>
+I get it, I get it. Money makes<LF>
+the world go round.<EN>
 //
 //クミ<LF>
 //「おじさん いいの。<LF>
@@ -738,7 +902,9 @@
 
 // 85 -- 15:5EFD
 #WRITE(Ptr,$55EFD)
-55EFD<EN>
+It has the same short jump as<LF>
+the Yanbar, but it's a little<LF>
+cheaper...<EN>
 //
 //「こうえいモンスタ-には<LF>
 // おなじ ひとつとび だけど<LF>
@@ -747,7 +913,10 @@
 
 // 86 -- 15:5F32
 #WRITE(Ptr,$55F32)
-55F32<EN>
+There's also a monster called<LF>
+Biyom I wanted to show you. But<LF>
+it's sold out now, so I'll have<LF>
+to restock first.<EN>
 //
 //「『ビヨンド』って いうのも<LF>
 // あるんだ。 みせてあげたいが<LF>
@@ -756,7 +925,10 @@
 
 // 87 -- 15:5F6F
 #WRITE(Ptr,$55F6F)
-55F6F<EN>
+By the way, the old man who<LF>
+bought the Biyom was asking<LF>
+about you guys. Perhaps you<LF>
+know him?<EN>
 //
 //「? そういえば ビヨンドを<LF>
 // かっていった おじいさんが、<LF>
@@ -765,7 +937,9 @@
 
 // 88 -- 15:5FAF
 #WRITE(Ptr,$55FAF)
-55FAF<EN>
+Shopkeeper:<LF>
+Welcome! You're on your own<LF>
+today?<EN>
 //
 //てんちょう<LF>
 //「やあ いらっしゃい!<LF>
@@ -773,7 +947,9 @@
 
 // 89 -- 15:5FD1
 #WRITE(Ptr,$55FD1)
-55FD1<EN>
+Ah, I see. You want to buy<LF>
+cards so that you can join<LF>
+the Kurama Club.<EN>
 //
 //「そうか!<LF>
 // クラマクラブを めざして<LF>
@@ -782,7 +958,8 @@
 
 // 90 -- 15:5FFC
 #WRITE(Ptr,$55FFC)
-55FFC<EN>
+I suggest you get a Card Hero<LF>
+booster pack.<EN>
 //
 //「そんな きみには<LF>
 // カ-ドヒ-ロ-<LF>
@@ -791,7 +968,8 @@
 
 // 91 -- 15:6025
 #WRITE(Ptr,$56025)
-56025<EN>
+Each pack contains three<LF>
+random cards.<EN>
 //
 //「ひとつの パックには<LF>
 // 3まいの カ-ドが<LF>
@@ -800,7 +978,10 @@
 
 // 92 -- 15:605B
 #WRITE(Ptr,$5605B)
-5605B<EN>
+One pack costs 150 Yen.<LF>
+Do you want one?<LF>
+<LF>
+   Yes   No<EN>
 //
 //「1パック 150えんと<LF>
 // おかいどくだ! どうだい?<LF>
@@ -809,7 +990,9 @@
 
 // 93 -- 15:6089
 #WRITE(Ptr,$56089)
-56089<EN>
+Ok. You can pick one of these<LF>
+ten packs. I hope you get<LF>
+lucky!<EN>
 //
 //「じゃ、この10パックから<LF>
 // えらんで おくれ。<LF>
@@ -817,14 +1000,18 @@
 
 // 94 -- 15:60B1
 #WRITE(Ptr,$560B1)
-560B1<EN>
+You can't advance if you<LF>
+don't buy it.<EN>
 //
 //「とりあえず<LF>
 // かわなきゃ はじまらないよ。<EN>
 
 // 95 -- 15:60C9
 #WRITE(Ptr,$560C9)
-560C9<EN>
+Spending your last Yen on that<LF>
+pack, only to get the same card<LF>
+three times... How tragic,<LF>
+you might think...<EN>
 //
 //「……… なけなしの<LF>
 // 150えんを はたいて<LF>
@@ -833,7 +1020,10 @@
 
 // 96 -- 15:6101
 #WRITE(Ptr,$56101)
-56101<EN>
+But that's not true at all!<LF>
+Getting three of a kind is<LF>
+actually great and gives you<LF>
+a bonus!<EN>
 //
 //「なんて と-んでもない!<LF>
 // おなじカ-ド 3まい いりは<LF>
@@ -841,7 +1031,8 @@
 
 // 97 -- 15:612E
 #WRITE(Ptr,$5612E)
-5612E<EN>
+You get to pick two<LF>
+extra packs.<EN>
 //
 //「さあ、きみには<LF>
 // あと 2パックひく<LF>
@@ -849,7 +1040,9 @@
 
 // 98 -- 15:6152
 #WRITE(Ptr,$56152)
-56152<EN>
+Wow! That's a really nice card!<LF>
+Okay, one more pack for you.<LF>
+Choose carefully.<EN>
 //
 //「ほ-っ!<LF>
 // なかなか いいカ-ドだね!<LF>
@@ -858,7 +1051,9 @@
 
 // 99 -- 15:6186
 #WRITE(Ptr,$56186)
-56186<EN>
+And just like that you got a<LF>
+Thunderbolt! Luck is really on<LF>
+your side today.<EN>
 //
 //「なな なんと! イキナリ<LF>
 // サンダ-を ゲットとは…<LF>
@@ -867,7 +1062,10 @@
 
 // 100 -- 15:61BF
 #WRITE(Ptr,$561BF)
-561BF<EN>
+But the Thunderbolt would put<LF>
+your deck at 16 cards, so you<LF>
+need to switch it with<LF>
+another card.<EN>
 //
 //「しかし、ぜんぶで<LF>
 // 16まいに なっちゃったから<LF>
@@ -876,7 +1074,10 @@
 
 // 101 -- 15:61F3
 #WRITE(Ptr,$561F3)
-561F3<EN>
+-Replacing Cards-<LF>
+Press Start then A<LF>
+to replace a card<LF>
+- PUSH START -<EN>
 //
 //  （いれかえる ほうほう）<LF>
 //『スタ-トボタン』を おしてから<LF>
@@ -885,42 +1086,49 @@
 
 // 102 -- 15:6232
 #WRITE(Ptr,$56232)
-56232<EN>
+Choose a card to remove from<LF>
+the deck (top row)<EN>
 //
 //デッキ（うえのらん）から<LF>
 //ぬきたいカ-ドを……<EN>
 
 // 103 -- 15:624B
 #WRITE(Ptr,$5624B)
-5624B<EN>
+Use the D-Pad to move<LF>
+and A to select<EN>
 //
 //じゅうじボタンで カ-ソルを<LF>
 //うごかし えらんで Aボタンです<EN>
 
 // 104 -- 15:626C
 #WRITE(Ptr,$5626C)
-5626C<EN>
+Then move the cursor down<LF>
+with the D-Pad<EN>
 //
 //そして じゅうじボタンを<LF>
 //したにいれ カ-ソルを いどうし<EN>
 
 // 105 -- 15:628B
 #WRITE(Ptr,$5628B)
-5628B<EN>
+Select the Thunderbolt with A<LF>
+to complete the replacement<EN>
 //
 //サンダ-に あわせて Aボタンを<LF>
 //おせば、いれかえ かんりょうです<EN>
 
 // 106 -- 15:62AE
 #WRITE(Ptr,$562AE)
-562AE<EN>
+Press B to return to the<LF>
+previous screen<EN>
 //
 //Bボタンを おせば<LF>
 //もとのがめんに もどれます<EN>
 
 // 107 -- 15:62C7
 #WRITE(Ptr,$562C7)
-562C7<EN>
+Shopkeeper:<LF>
+Good job, now your deck is<LF>
+viable for Junior rules.<EN>
 //
 //てんちょう<LF>
 //「ついに ジュニアル-ルの<LF>
@@ -929,7 +1137,9 @@
 
 // 108 -- 15:62F3
 #WRITE(Ptr,$562F3)
-562F3<EN>
+If the deck doesn't work for<LF>
+you, there are a few things<LF>
+you can try.<EN>
 //
 //「そのデッキで あまり<LF>
 // かてない ようだったら、<LF>
@@ -938,7 +1148,8 @@
 
 // 109 -- 15:6326
 #WRITE(Ptr,$56326)
-56326<EN>
+Keep buying more cards and<LF>
+add them to your deck!<EN>
 //
 //「どんどん カ-ドをかって、<LF>
 // つよいデッキを つくる<LF>
@@ -946,7 +1157,9 @@
 
 // 110 -- 15:6351
 #WRITE(Ptr,$56351)
-56351<EN>
+But remember, you can't include<LF>
+more than 3 copies of the same<LF>
+card in a deck.<EN>
 //
 //「それから おなじカ-ドを<LF>
 // デッキに いれるばあいは<LF>
@@ -955,7 +1168,9 @@
 
 // 111 -- 15:638C
 #WRITE(Ptr,$5638C)
-5638C<EN>
+One more piece of advice:<LF>
+If you get a new card you<LF>
+haven't seen before...<EN>
 //
 //「もうひとつ アドバイスだ。<LF>
 // もっていない カ-ドを<LF>
@@ -963,7 +1178,9 @@
 
 // 112 -- 15:63B5
 #WRITE(Ptr,$563B5)
-563B5<EN>
+Examine the card carefully and<LF>
+find out how its abilities<LF>
+work.<EN>
 //
 //「カ-ドを よくみて<LF>
 // チェックしておく べきだよ。<LF>
@@ -972,7 +1189,9 @@
 
 // 113 -- 15:63E6
 #WRITE(Ptr,$563E6)
-563E6<EN>
+Don't take it into battle if<LF>
+you don't know how it works,<LF>
+you'll just lose.<EN>
 //
 //「バトルのとき<LF>
 // いみが わからなくて<LF>
@@ -981,7 +1200,9 @@
 
 // 114 -- 15:6413
 #WRITE(Ptr,$56413)
-56413<EN>
+(How to examine cards)<LF>
+When the cursor is over a<LF>
+card in the Deck view...<EN>
 //
 //（カ-ドを よくみる ほうほう）<LF>
 //デッキをみる がめんなどで<LF>
@@ -990,7 +1211,8 @@
 
 // 115 -- 15:644F
 #WRITE(Ptr,$5644F)
-5644F<EN>
+Press the Select button<LF>
+to inspect it.<EN>
 //
 //『セレクトボタン』を おすと<LF>
 //カ-ドを くわしくみることが<LF>
@@ -998,7 +1220,9 @@
 
 // 116 -- 15:6474
 #WRITE(Ptr,$56474)
-56474<EN>
+You can also inspect individual<LF>
+symbols on the card with the<LF>
+Select button.<EN>
 //
 //みたことのない マ-クが<LF>
 //ついていた ばあい、もういちど<LF>
@@ -1007,7 +1231,9 @@
 
 // 117 -- 15:64B1
 #WRITE(Ptr,$564B1)
-564B1<EN>
+These explanations are<LF>
+available even during<LF>
+battles.<EN>
 //
 //この きのうは<LF>
 //バトルちゅう などもふくめ、<LF>
@@ -1016,7 +1242,10 @@
 
 // 118 -- 15:64E1
 #WRITE(Ptr,$564E1)
-564E1<EN>
+Repeat this tutorial?<LF>
+ <LF>
+ <LF>
+    Yes    No<EN>
 //
 //もういちど せつめいしますか?<LF>
 // <LF>
@@ -1025,7 +1254,8 @@
 
 // 119 -- 15:6504
 #WRITE(Ptr,$56504)
-56504<EN>
+Try it out when you edit<LF>
+your deck.<EN>
 //
 //よろしければ デッキを<LF>
 //いれかえるとき などに<LF>
@@ -1033,14 +1263,16 @@
 
 // 120 -- 15:652A
 #WRITE(Ptr,$5652A)
-5652A<EN>
+Shopkeeper:<LF>
+Hello.<EN>
 //
 //てんちょう<LF>
 //「やあ いらっしゃい。<EN>
 
 // 121 -- 15:653D
 #WRITE(Ptr,$5653D)
-5653D<EN>
+Huh, where's that cheerful<LF>
+girl who's usually with you?<EN>
 //
 //「? いつも いっしょにいる、<LF>
 // あの げんきな おんなのコは<LF>
