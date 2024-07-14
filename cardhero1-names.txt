@@ -4,8 +4,8 @@ MONSTER & MAGIC
 002	MONSTER	？？？		？ ？ ？			Papatot
 003	MONSTER	ゲッティ		getti			Ketty			geira
 004	MONSTER	ポンカー		ponkā			Ponka			poppuru
-005	MONSTER	ポポンカー		poponkā			Poponka			ragapoppuru
-006	MONSTER	ウォータ		wōta			Aquon			eru soru
+005	MONSTER	ポポンカー		poponkā			Poponka			
+006	MONSTER	ウォータ		wōta			Aquon
 007	MONSTER	タコッケー		takokkē			Octopal
 008	MONSTER	ボムゾウ		bomuzō			Bombino
 009	MONSTER	ボムノスケ		bomunosuke		Bombozzo
@@ -13,13 +13,13 @@ MONSTER & MAGIC
 011	MONSTER	ワイルダー		wairudā			Graveheart
 012	MONSTER	シゴトにん		shigoto nin		Ninjobi
 013	MONSTER	ジャレス		ja resu			Jaran
-014	MONSTER	ジャレット		ja retto		Jamoran
+014	MONSTER	ジャレット		ja retto		Jatoran
 015	MONSTER	ポリゴマ		pori goma		Polytop
 016	MONSTER	エルゴマ		eru goma		Buzztop
 017	MONSTER	ビヨンド		biyondo			Biyom
 018	MONSTER	ルージュ		rūju			Rougette
-019	MONSTER	マッコイ		makkoi			Mekke
-020	MONSTER	ヤンバル		yan baru		Yanbar
+019	MONSTER	マッコイ		makkoi			Maokoi			Arborion
+020	MONSTER	ヤンバル		yan baru		Yanbar							1:Peck		2:Short Jump
 021	MONSTER	ガンター		gantā			Gantas
 022	MONSTER	ドガンター		dogantā			Megantas
 023	MONSTER	ヴァルテル		varuteru		Valcruz
@@ -50,7 +50,7 @@ MAGICAL WORLD
 045	MONSTER	カッパラー		kapparā			Nixodor
 046	MONSTER	チャーミ		chāmi			Razzmok
 047	MONSTER	スッピーン		suppīn			Pyureen
-048	MONSTER	チュトロ		chutoro			Slurpula
+048	MONSTER	チュトロ		chutoro			Suckula
 049	MONSTER	ぎんじ		ginji			Ginjy / Hoppy
 050	MONSTER	アップル		appuru			Popple
 051	MONSTER	ルースター		rū sutā			Gurooster
@@ -118,5 +118,5 @@ SUPER INCLUDE
 107	MAGIC	きあいだめ		ki aidame		Focus
 108	MAGIC	みがわり		migawari		Scapegoat
 109	MAGIC	へんしんミラー	henshin mirā	Morph Mirror
-110	MONSTER	モーガン 	　	mō gan 			Mokahn	 		Silverwing Goldbeak Ironbeak Steelclaw
+110	MONSTER	モーガン 	　	mō gan 			Mo-Kahn	 		Silverwing Goldbeak Ironbeak Steelclaw
 
